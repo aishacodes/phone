@@ -76,11 +76,21 @@ body {
 .back-camera {
     position: absolute;
     background-color: black;
-    width: 3rem;
+    width: 2rem;
     height: 10rem;
     top: 2rem;
     left: 1rem;
+    border-radius: 20px;
+}
+
+.thumbprint {
+    position: absolute;
+    left: calc(50% - 1.5rem);
+    top: 8rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 5px;
+    background-color: turquoise;
 }
 
 .b-power-btn {
