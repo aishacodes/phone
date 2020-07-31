@@ -93,6 +93,12 @@ body {
     background-color: turquoise;
 }
 
+span {
+    position: absolute;
+    right: calc(50% - 1.5rem);
+    bottom: 2rem;
+}
+
 .b-power-btn {
     height: 2rem;
     width: .3rem;
