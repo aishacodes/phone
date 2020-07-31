@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper {}
+
+.screen {
+    margin: 2rem auto;
+    width: 375px;
+    max-width: 100%;
+    height: 815px;
+    max-height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: inset 0 0 3px 3px black;
+    padding: .5rem;
+}
+
+.scrin {
+    height: 100%;
+    width: 100%;
+}
+
+.camera {
+    position: absolute;
+    background-color: black;
+    width: 1rem;
+    height: 1rem;
+    top: 0;
+    right: calc(50% - .5rem);
+    border-radius: 50%;
+}
+
+.power-btn {
+    height: 2rem;
+    width: .3rem;
+    background-color: black;
+    position: absolute;
+    right: -.4rem;
+    top: calc(40% - 1rem);
+}
+
+.volume-btn {
+    height: 4rem;
+    width: .3rem;
+    background-color: rgb(17, 16, 16);
+    position: absolute;
+    right: -.4rem;
+    top: calc(30% - 2rem);
+}
+
+.back-screen {
+    margin: 2rem auto;
+    width: 375px;
+    max-width: 100%;
+    height: 815px;
+    max-height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: inset 0 0 3px 3px black;
+    padding: .5rem;
+}
+
+.back-scrin {
+    height: 100%;
+    width: 100%;
+}
+
+.back-camera {
+    position: absolute;
+    background-color: black;
+    width: 3rem;
+    height: 10rem;
+    top: 2rem;
+    left: 1rem;
+    border-radius: 5px;
+}
+
+.b-power-btn {
+    height: 2rem;
+    width: .3rem;
+    background-color: black;
+    position: absolute;
+    left: -.4rem;
+    top: calc(40% - 1rem);
+}
+
+.b-volume-btn {
+    height: 4rem;
+    width: .3rem;
+    background-color: rgb(17, 16, 16);
+    position: absolute;
+    left: -.4rem;
+    top: calc(30% - 2rem);
+}
